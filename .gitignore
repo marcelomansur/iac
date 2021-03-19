@@ -2,3 +2,8 @@ hosts
 .venv
 roles
 molecule/*/tests/__pycache__
+.terraform*
+plano
+*.tfstate
+*.tfstate.backup
+
