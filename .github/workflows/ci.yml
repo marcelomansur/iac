@@ -57,7 +57,7 @@ jobs:
 
   staging-deploy:
     runs-on: ubuntu-18.04
-    if: github.ref == 'refs/heads/main'
+    if: github.ref == 'refs/heads/issue52-envs-tests'
 
     steps:
       - uses: actions/checkout@v2
